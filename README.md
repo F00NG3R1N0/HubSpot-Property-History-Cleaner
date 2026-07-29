@@ -5,7 +5,7 @@ Issue: HubSpot Property History exports come in a strange format. Where the list
 i.e. The columns would look something like Object ID, Email, Current Value, Changed By, Value (1), Changed By (1), Value (2), Changed By (2), and so on.
 This makes it difficult to read if there had been multiple changes over time to one field.
 
-```markdown
+
 # HubSpot Property History Cleaner
 
 Python script to transform messy HubSpot property history exports into readable, chronologically sorted data.
@@ -47,4 +47,10 @@ I regularly needed to audit HubSpot property changes for client reporting. The d
 - Pandas (`pip install pandas`)
 
 ### Installation
-```bash
+
+
+
+
+
+
+
